@@ -1,13 +1,13 @@
 #Remote Backend Configuration
-terraform {
-  backend "remote" {
-    hostname = "app.terraform.io"
-    organization = "jakeasarus"
+# terraform {
+#   backend "remote" {
+#     hostname = "app.terraform.io"
+#     organization = "jakeasarus"
 
-    workspaces {
-      name = "udemy_test"
-    }
-  }
+#     workspaces {
+#       name = "udemy_test"
+#     }
+#   }
 }
 #Provider Configuration
 provider "aws" {
